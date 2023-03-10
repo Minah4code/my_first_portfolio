@@ -6,35 +6,27 @@ $('header').toggleClass('toggle');
 });
 
 
-
-
-$(window).scroll(function () {
+$(window).scroll(function(){
     if ($(this).scrollTop() > 100) {
-        $('.back-to-top').fadeIn('slow');
+      $('.back-to-top').fadeIn();
     } else {
-        $('.back-to-top').fadeOut('slow');
+      $('.back-to-top').fadeOut();
     }
-});
-$('.back-to-top').click(function () {
-    $('html, body').animate({scrollTop: 0}, 1500, 'easeInOutExpo');
+  });
+  $('.back-to-top').click(function(){
+    $('html, body').animate({scrollTop : 0},800);
     return false;
-});
+  });
 
 
-$('a[href*="#"]').click(function(e){
-
-e.preventDefault();
-
-$('html', 'body').animate({
-
-scrollTop : $($(this).attr('href')).offset().back-to-top,
-},
-500,
-'linear'
-);
 
 
-});
+
+
+
+
+
+
 });
 
 
