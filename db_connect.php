@@ -1,0 +1,15 @@
+<?php
+// Set database credentials
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "mabworld";
+
+// Create a database connection
+$conn = mysqli_connect($servername, $username, $password, $dbname);
+
+// Check connection
+if (!$conn) {
+  die("Connection failed: " . mysqli_connect_error());
+}
+?>

@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wghht@200;300;400;600&display=swap');
 
-::root{
+:root{
     --purple:purple;
 }
 
@@ -397,8 +397,9 @@ section{
    }
      .portfolio .box-container .box{
     width: 100%;
-}
-.contact .row form{
+    }
+    .contact .row form{
     margin: 3rem 0;
+    }
 }
-}
+
